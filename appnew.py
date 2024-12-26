@@ -57,7 +57,7 @@ with col2:
 if st.button("Predict"):
     
     # 载入模型
-    clf = joblib.load("model.pkl")
+    clf = joblib.load("/workspaces/Apppredictforme/model.pkl")
     # 定义变量的最大值和最小值
     min_max_values = {
         "Surgical_duration": (1, 50),
